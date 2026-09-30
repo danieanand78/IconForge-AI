@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/iconforge/manifest.schema.json",
+  "title": "IconForge AI submission manifest",
+  "type": "object",
+  "required": [
+    "equipe",
+    "methode",
+    "modeles",
+    "bibliotheques",
+    "services_distants",
+    "repli_gratuit"
+  ],
+  "properties": {
+    "$schema": {"type": "string"},
+    "equipe": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 7,
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "methode": {"type": "string", "minLength": 1},
+    "modeles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["nom", "version", "local"],
+        "properties": {
+          "nom": {"type": "string", "minLength": 1},
+          "version": {"type": "string", "minLength": 1},
+          "local": {"type": "boolean"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "bibliotheques": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "services_distants": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "repli_gratuit": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

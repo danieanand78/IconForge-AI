@@ -1,0 +1,232 @@
+{
+  "marque": {
+    "couleurs_officielles_reutilisees": [
+      "#FFD21E",
+      "#FF9D00",
+      "#6B7280"
+    ],
+    "elements_proteges_interdits": [
+      "ne pas les redessiner ou les reconstruire ;",
+      "ne pas les déformer, recolorer ou découper ;",
+      "ne pas intégrer leur visage dans une icône générée ;",
+      "ne pas suggérer une affiliation officielle."
+    ],
+    "affiliation_officielle": false
+  },
+  "format_technique": {
+    "viewBox": "0 0 64 64",
+    "zone_utile": {
+      "x_min": 5.0,
+      "x_max": 59.0,
+      "y_min": 5.0,
+      "y_max": 59.0
+    },
+    "fond_transparent": true,
+    "max_couleurs_visibles": 4,
+    "elements_interdits": [
+      "aucune image matricielle embarquée ;",
+      "aucun texte, aucune police externe ;",
+      "aucun script, lien externe ou animation ;",
+      "aucun gradient, filtre, masque ou texture ;"
+    ]
+  },
+  "palette": {
+    "couleurs_prescrites": [
+      {
+        "nom": "Jaune principal",
+        "hex": "#FFD21E",
+        "role": "`#FFD21E`",
+        "statut": "couleur officielle publiée"
+      },
+      {
+        "nom": "Orange d’accent",
+        "hex": "#FF9D00",
+        "role": "`#FF9D00`",
+        "statut": "couleur officielle publiée"
+      },
+      {
+        "nom": "Gris secondaire",
+        "hex": "#6B7280",
+        "role": "`#6B7280`",
+        "statut": "couleur officielle publiée"
+      },
+      {
+        "nom": "Encre sombre",
+        "hex": "#111827",
+        "role": "`#111827`",
+        "statut": "couleur technique du challenge"
+      },
+      {
+        "nom": "Blanc",
+        "hex": "#FFFFFF",
+        "role": "`#FFFFFF`",
+        "statut": "réserve ou détail intérieur"
+      }
+    ],
+    "couleur_dominante_attendue": "jaune",
+    "couleurs_observees_dans_references": [
+      "#111827",
+      "#FF9D00",
+      "#FFD21E",
+      "#FFFFFF"
+    ]
+  },
+  "trait": {
+    "epaisseur_prescrite": 2.5,
+    "epaisseur_observee_dans_references": [
+      2.5
+    ],
+    "linecap_prescrit": "round",
+    "linejoin_prescrit": "round"
+  },
+  "grille_construction": {
+    "taille": null,
+    "alignement_strict": false,
+    "note": null
+  },
+  "style_qualitatif": {
+    "criteres_charte": [
+      "formes pleines, simples et généreuses ;",
+      "silhouette douce, compacte et immédiatement reconnaissable ;",
+      "contours sombres de `2.5` unités lorsqu’un contour est nécessaire ;",
+      "`stroke-linecap=\"round\"` et `stroke-linejoin=\"round\"` ;",
+      "coins arrondis et détails expressifs ;",
+      "légère asymétrie autorisée pour éviter un rendu trop mécanique ;",
+      "ombres uniquement sous forme d’aplats orange, sans flou ;",
+      "vue frontale ou quasi frontale ;",
+      "lisibilité à **24 px**, **32 px** et **64 px**."
+    ],
+    "observations_references": {
+      "formation.svg": {
+        "couleurs": [
+          "#111827",
+          "#FF9D00",
+          "#FFD21E"
+        ],
+        "bbox": {
+          "x_min": 7.0,
+          "x_max": 57.0,
+          "y_min": 8.0,
+          "y_max": 55.0,
+          "largeur": 50.0,
+          "hauteur": 47.0
+        }
+      },
+      "informatique.svg": {
+        "couleurs": [
+          "#111827",
+          "#FF9D00",
+          "#FFD21E"
+        ],
+        "bbox": {
+          "x_min": 6.5,
+          "x_max": 57.5,
+          "y_min": 11.0,
+          "y_max": 56.0,
+          "largeur": 51.0,
+          "hauteur": 45.0
+        }
+      },
+      "innovation.svg": {
+        "couleurs": [
+          "#111827",
+          "#FF9D00",
+          "#FFD21E"
+        ],
+        "bbox": {
+          "x_min": 6.5,
+          "x_max": 57.5,
+          "y_min": 6.5,
+          "y_max": 57.5,
+          "largeur": 51.0,
+          "hauteur": 51.0
+        }
+      },
+      "recherche.svg": {
+        "couleurs": [
+          "#111827",
+          "#FF9D00",
+          "#FFD21E",
+          "#FFFFFF"
+        ],
+        "bbox": {
+          "x_min": 10.0,
+          "x_max": 57.5,
+          "y_min": 7.0,
+          "y_max": 57.5,
+          "largeur": 47.5,
+          "hauteur": 50.5
+        }
+      },
+      "reseau.svg": {
+        "couleurs": [
+          "#111827",
+          "#FF9D00",
+          "#FFD21E",
+          "#FFFFFF"
+        ],
+        "bbox": {
+          "x_min": 6.5,
+          "x_max": 57.5,
+          "y_min": 7.5,
+          "y_max": 56.5,
+          "largeur": 51.0,
+          "hauteur": 49.0
+        }
+      }
+    }
+  },
+  "coherence_collection": {
+    "criteres": [
+      "une proportion comparable entre jaune, orange et encre sombre ;",
+      "une épaisseur optique stable ;",
+      "des rayons et terminaisons cohérents ;",
+      "des masses compactes entourées d’un espace respirant ;",
+      "un niveau de détail comparable ;",
+      "un équilibre commun entre expressivité et lisibilité fonctionnelle."
+    ]
+  },
+  "interdits_stylistiques": [
+    "pas de copie du visage ou des mains du logo Hugging Face ;",
+    "pas d’emoji existant simplement recoloré ;",
+    "pas de 3D, photoréalisme, texture ou ombre floue ;",
+    "pas de contours d’épaisseurs arbitrairement mélangées ;",
+    "pas de détails décoratifs sans rôle sémantique ;",
+    "pas de jaune trop clair sur fond blanc sans contour suffisant."
+  ],
+  "concepts_references_attendus": [
+    {
+      "fichier": "formation.svg",
+      "concept": "livre ouvert et étincelle d’apprentissage ;"
+    },
+    {
+      "fichier": "informatique.svg",
+      "concept": "terminal de code ;"
+    },
+    {
+      "fichier": "recherche.svg",
+      "concept": "document analysé à la loupe ;"
+    },
+    {
+      "fichier": "reseau.svg",
+      "concept": "réseau distribué ;"
+    },
+    {
+      "fichier": "innovation.svg",
+      "concept": "ampoule et étincelles."
+    }
+  ],
+  "anomalies_detectees": [],
+  "meta": {
+    "hash_charte": "e3a0bea2c4a472117a6df4ca934f00dad43a07d7884fcca99086c972040de485",
+    "fichiers_references_analyses": [
+      "formation.svg",
+      "informatique.svg",
+      "innovation.svg",
+      "recherche.svg",
+      "reseau.svg"
+    ],
+    "date_extraction": "2026-08-26T09:41:36.975236+00:00",
+    "methode": "extraction Python déterministe"
+  }
+}

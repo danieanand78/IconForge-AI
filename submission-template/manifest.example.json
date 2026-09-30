@@ -1,0 +1,15 @@
+{
+  "$schema": "./manifest.schema.json",
+  "equipe": ["Nom Prénom", "Autre Nom"],
+  "methode": "représentation intermédiaire JSON + validateurs + boucle refine",
+  "modeles": [
+    {
+      "nom": "nom-du-modèle",
+      "version": "version-ou-commit",
+      "local": true
+    }
+  ],
+  "bibliotheques": ["nom==version"],
+  "services_distants": [],
+  "repli_gratuit": "Décrire la solution locale ou gratuite de secours."
+}

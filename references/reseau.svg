@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Réseau</title>
+  <desc id="desc">Un réseau de quatre nœuds jaunes reliés à un centre orange.</desc>
+  <g stroke="#111827" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 27 17 18m21 9 9-9M26 37l-9 9m21-9 9 9" fill="none"/>
+    <circle cx="32" cy="32" r="10" fill="#FF9D00"/>
+    <circle cx="13" cy="14" r="6.5" fill="#FFD21E"/>
+    <circle cx="51" cy="14" r="6.5" fill="#FFD21E"/>
+    <circle cx="13" cy="50" r="6.5" fill="#FFD21E"/>
+    <circle cx="51" cy="50" r="6.5" fill="#FFD21E"/>
+    <circle cx="32" cy="32" r="3" fill="#FFFFFF"/>
+  </g>
+</svg>

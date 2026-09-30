@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Innovation</title>
+  <desc id="desc">Une ampoule jaune avec une base orange et des étincelles.</desc>
+  <g stroke="#111827" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 30a14 14 0 1 0-28 0c0 5 2.2 8 5.2 11.2 1.8 1.9 2.8 4.3 2.8 6.8h12c0-2.5 1-4.9 2.8-6.8C43.8 38 46 35 46 30z" fill="#FFD21E"/>
+    <path d="M26 48h12v6H26z" fill="#FF9D00"/>
+    <path d="M29 57.5h6M32 6.5V10M12 12l4 4M52 12l-4 4M6.5 31H12M52 31h5.5" fill="none"/>
+    <path d="m27 30 4 4 7-9" fill="none"/>
+  </g>
+</svg>

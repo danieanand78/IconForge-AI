@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Formation</title>
+  <desc id="desc">Un livre ouvert jaune avec une étincelle d’apprentissage.</desc>
+  <g stroke="#111827" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 17c9-3 18-.5 25 6v32c-7-6.5-16-9-25-6z" fill="#FFD21E"/>
+    <path d="M57 17c-9-3-18-.5-25 6v32c7-6.5 16-9 25-6z" fill="#FFD21E"/>
+    <path d="M13 25c5-1 9.5.3 13 3M13 34c5-1 9.5.3 13 3M51 25c-5-1-9.5.3-13 3M51 34c-5-1-9.5.3-13 3" fill="none"/>
+    <path d="m32 8 1.8 4.2L38 14l-4.2 1.8L32 20l-1.8-4.2L26 14l4.2-1.8z" fill="#FF9D00"/>
+  </g>
+</svg>
